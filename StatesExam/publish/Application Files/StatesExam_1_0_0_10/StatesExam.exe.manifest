@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="StatesExam.exe" version="1.0.0.10" publicKeyToken="bbdc33e342b5e70d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="StatesExam" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="StatesExam.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StatesExam.exe" size="2757120">
+      <assemblyIdentity name="StatesExam" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hSDtc39tgHp/puM+uiZbRcYR+0UHoDP52sj2V2NWYr8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="StatesExam.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NOZOM\nozom" issuerKeyHash="a5de3eddf47a9be791d9540be0a94f0448b21c3f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UFFHWhDbNrjjTcYPCoq2oKVcmsURhJ5Nan+dM4q1378=</DigestValue></Reference></SignedInfo><SignatureValue>RU4olH1SfMZ+QHZEECcgOaLUsJoxSOR0bkt4heSj6WjeF82+j8RcHDocD5h4ENslm2o9WmIy2QS6uM6IZV47pwRrlIqp8c/wWq7AMZtweBDEovMh1akA16pN9Z+9fo2zVGAoRCqtBgyFUpq2Whhqh1ghUGrhypTLCVgjsiSDEu0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ujGrXwIK2WhHF29NcB1AJ0mNDWTbi5uAFG3jF5R42vgSoy0Bhg+m3UVK6b62b9OTc5j3U0pVpAD4Ej03tySzKMj1kVMbMXEoRbeAtf43pVglL9e7fBg2WabnRxKRv7UDZ5H40ZG5RkLyaiZ1LYqpBDgIWDt3yLLWBebvnmcTtE0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bfdfb58a339d7f6a4d9e8411c59a5ca5a0b68a0a0fc64de3b836db105a475150" Description="" Url=""><as:assemblyIdentity name="StatesExam.exe" version="1.0.0.10" publicKeyToken="bbdc33e342b5e70d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NOZOM\nozom</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jLNiPmycD4x/7xjGVyIO4o76YBUxGvq9SANcUo/z8nw=</DigestValue></Reference></SignedInfo><SignatureValue>N8OKZYp9oYYTWmWbNy5Hk607XA2hHF9YTHbtxXvfjMMY8hpCYshwWDACAymHOc1Pb/2851ocY+vzPWKROePqm1/I8BkzZSbqzKDCbiSaIPbxFEK6xj0mzNUgGLwkrw8YREvzAl8lzwEuwk9O1G5KQDWxUFSDiekbXHmMAnFjE3w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ujGrXwIK2WhHF29NcB1AJ0mNDWTbi5uAFG3jF5R42vgSoy0Bhg+m3UVK6b62b9OTc5j3U0pVpAD4Ej03tySzKMj1kVMbMXEoRbeAtf43pVglL9e7fBg2WabnRxKRv7UDZ5H40ZG5RkLyaiZ1LYqpBDgIWDt3yLLWBebvnmcTtE0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQF18b6ldZV7JGu+U5ZqduhjANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYATgBPAFoATwBNAFwAbgBvAHoAbwBtMB4XDTE5MDQwMzE3MTUzOVoXDTIwMDQwMjIzMTUzOVowITEfMB0GA1UEAx4WAE4ATwBaAE8ATQBcAG4AbwB6AG8AbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAujGrXwIK2WhHF29NcB1AJ0mNDWTbi5uAFG3jF5R42vgSoy0Bhg+m3UVK6b62b9OTc5j3U0pVpAD4Ej03tySzKMj1kVMbMXEoRbeAtf43pVglL9e7fBg2WabnRxKRv7UDZ5H40ZG5RkLyaiZ1LYqpBDgIWDt3yLLWBebvnmcTtE0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAzKWZQlFE7UjRs6S5IqJqQ3UlhGQ5H94bLnVzSisqReEelQU+yRUayFszdH/Svn6a/WnJKi90xy745JSLLA4tno7SQr6ULRp7aqNgGIidN/vwwkAU99EJgZadzA8OPsnUMp5rYN2WlUExYgGdqpxoM/cojiKe8rICV1+Yap/mqFA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
